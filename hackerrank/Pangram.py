@@ -6,7 +6,4 @@ After typing the sentence several times, Roy became bored with it. So he started
 Given a sentence s, tell Roy if it is a pangram or not.
 '''
 
-if set('abcdefghijklmnopqrstuvwxyz') - set(input().lower()):
-    print('not pangram')
-else:
-    print('pangram')
+print('not pangram' if set('abcdefghijklmnopqrstuvwxyz') - set(input().lower()) else 'pangram')
