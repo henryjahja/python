@@ -1,3 +1,4 @@
+#variable switching
 fiboInput = 0
 while int(fiboInput) <= 0:
 	fiboInput = int(input("Input Fibonacci iteration you would like: "))
@@ -15,3 +16,14 @@ while counter < fiboInput:
 	curNum = newNum
 	newNum = "{:,}".format(newNum)
 	print ("Iteration #%d: %s" % (counter,newNum))
+	
+#recursion
+def fibo(x):
+    if x == 0:
+        return 0
+    elif x == 1:
+        return 1
+    else:
+        return fibo(x-1) + fibo(x-2)
+for x in range(200):
+	print(x,fibo(x))
