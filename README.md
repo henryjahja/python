@@ -1,2 +1,2 @@
-# python-algorithms
-Python algorithms. Gathered from various cases found in internet and books.
+# Python-Algorithms
+Python algorithms. Gathered from various cases found in meetups, books, and internet.
